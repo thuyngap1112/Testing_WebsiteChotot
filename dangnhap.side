@@ -1,0 +1,381 @@
+{
+  "id": "ebfe1966-3a96-4d16-84f3-b2a648dc5cee",
+  "version": "2.0",
+  "name": "dangnhap",
+  "url": "http://localhost/WEB_DOAN2/HTML/dangnhap.php",
+  "tests": [{
+    "id": "65a1e85d-a55c-4f87-ad40-3ae219622759",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "b1b51bc0-caa7-435b-b591-613f6d41380c",
+    "name": "ca1",
+    "commands": [{
+      "id": "c21802cd-be42-4fdb-a3a4-8adb261a4eb3",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/WEB_DOAN2/HTML/dangnhap.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d20c353-d11b-4609-9d79-77ea98931268",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eeea8842-3af3-4585-befd-80de0ba08bde",
+      "comment": "",
+      "command": "type",
+      "target": "name=tendn",
+      "targets": [
+        ["name=tendn", "name"],
+        ["css=.sign-in label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='tendn']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ngọc Anh"
+    }, {
+      "id": "9cedd001-a173-4e64-bf00-3dc2cc7a69b4",
+      "comment": "",
+      "command": "click",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffb1f725-8231-4a0b-ab55-7c47d81b5a4c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit:nth-child(3)",
+      "targets": [
+        ["css=.submit:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Đăng Nhập']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4fade843-dcc5-4d09-a87d-14c83417d8df",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4790f4fd-a4ca-4901-afad-7c8a87f22c06",
+    "name": "ca2",
+    "commands": [{
+      "id": "af796f2b-0e2a-4ac3-b2a8-697c43c9b2d7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/WEB_DOAN2/HTML/dangnhap.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a09f59a-5e34-4319-8123-43021d1d3839",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72a1693c-256f-42b1-9459-b9d18049e819",
+      "comment": "",
+      "command": "click",
+      "target": "name=tendn",
+      "targets": [
+        ["name=tendn", "name"],
+        ["css=.sign-in label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='tendn']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59f933d0-e3fa-414b-8308-4a90eaf94571",
+      "comment": "",
+      "command": "click",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ffc698b-cbce-4575-8be1-fa40826584b7",
+      "comment": "",
+      "command": "type",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "c7c4a2b4-63f8-488a-9a89-09237f7a8af3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit:nth-child(3)",
+      "targets": [
+        ["css=.submit:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Đăng Nhập']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbb7bd08-4889-4185-a1ff-e043e65be2b7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8cac7960-ed8e-4da7-b28e-6ea4c48cf4e7",
+    "name": "ca3",
+    "commands": [{
+      "id": "4f67c2d6-d0f9-4ea7-98f6-ea3d32422ee7",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/WEB_DOAN2/HTML/dangnhap.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d042b6b-41da-4e80-83a9-510ddb6aa757",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4ec41e1-6c33-492c-a9ea-f995f38c2a56",
+      "comment": "",
+      "command": "click",
+      "target": "name=tendn",
+      "targets": [
+        ["name=tendn", "name"],
+        ["css=.sign-in label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='tendn']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f30c247c-a40c-41f9-acad-b28dcbacbdb9",
+      "comment": "",
+      "command": "click",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eab2a75-f431-4ea2-a4d3-20ed93739130",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit:nth-child(3)",
+      "targets": [
+        ["css=.submit:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Đăng Nhập']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a589ac4a-f658-4711-8b45-c49e47716139",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d131ecb5-1a78-49b9-9054-35da923757b9",
+    "name": "ca4",
+    "commands": [{
+      "id": "c865694d-1eb8-42bb-88f5-01bfc03136b5",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/WEB_DOAN2/HTML/dangnhap.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3db714b2-e1ff-4ce8-8487-226470fd9522",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67663fd1-1aaf-48d0-9a3e-f9fc7b74136d",
+      "comment": "",
+      "command": "click",
+      "target": "name=tendn",
+      "targets": [
+        ["name=tendn", "name"],
+        ["css=.sign-in label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='tendn']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3867f5aa-8e1c-4392-bc44-737b57179075",
+      "comment": "",
+      "command": "type",
+      "target": "name=tendn",
+      "targets": [
+        ["name=tendn", "name"],
+        ["css=.sign-in label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='tendn']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Ngọc Anh"
+    }, {
+      "id": "f13e94c0-ca35-40f6-a8b1-6580ffd4f6ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9370cae-45dd-403f-9716-85038d1886b2",
+      "comment": "",
+      "command": "type",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "90cbcda8-5ba4-47f4-b3dd-06d66270f62b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit:nth-child(3)",
+      "targets": [
+        ["css=.submit:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Đăng Nhập']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33b4fdb1-54db-4714-83a5-47284ac5ff2b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d7f46cfe-e6d2-49b5-83f7-b05e731ef200",
+    "name": "ca5",
+    "commands": [{
+      "id": "a97312c6-f7e4-4bba-b7dd-748ac5d72805",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/WEB_DOAN2/HTML/dangnhap.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "364849c3-ef00-40b0-b830-5c2a1990359b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64de8491-c21a-4534-b377-290fac254d2a",
+      "comment": "",
+      "command": "click",
+      "target": "name=tendn",
+      "targets": [
+        ["name=tendn", "name"],
+        ["css=.sign-in label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='tendn']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9403203-2bac-4f5d-8e96-4e3d8de0a1a9",
+      "comment": "",
+      "command": "type",
+      "target": "name=tendn",
+      "targets": [
+        ["name=tendn", "name"],
+        ["css=.sign-in label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='tendn']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "ngocanh"
+    }, {
+      "id": "820711f0-affd-496d-ad6a-8aa9f0a35031",
+      "comment": "",
+      "command": "click",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c01c7726-7a85-45e0-a1a9-66b43dae37fc",
+      "comment": "",
+      "command": "type",
+      "target": "name=mk",
+      "targets": [
+        ["name=mk", "name"],
+        ["css=.sign-in label:nth-child(2) > input", "css:finder"],
+        ["xpath=//input[@name='mk']", "xpath:attributes"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "2506"
+    }, {
+      "id": "3976bd3f-2afb-4585-8687-1a34e7688e5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.submit:nth-child(3)",
+      "targets": [
+        ["css=.submit:nth-child(3)", "css:finder"],
+        ["xpath=//input[@value='Đăng Nhập']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9a04877-e023-472b-9900-a742d3bd281c",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f1eb7759-f3c1-4b85-91a3-e8803d24fa22",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["65a1e85d-a55c-4f87-ad40-3ae219622759"]
+  }],
+  "urls": ["http://localhost/WEB_DOAN2/HTML/dangnhap.php"],
+  "plugins": []
+}

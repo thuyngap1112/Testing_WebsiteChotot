@@ -1,0 +1,477 @@
+{
+  "id": "dfb4ea98-431f-43b4-abb7-239661b32af2",
+  "version": "2.0",
+  "name": "dangki",
+  "url": "https://accounts.chotot.com/register",
+  "tests": [{
+    "id": "65c2bd96-3891-4998-891a-bdfbae5bd01d",
+    "name": "ca1",
+    "commands": [{
+      "id": "a3b80679-e89e-4722-a581-3c709c44e9e2",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.chotot.com/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0089f8a7-e5fb-47d6-8992-df3f0599df40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "917678ae-725d-4620-a7a8-2526fffad41e",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc4cec26-bdbd-4793-b888-ba586c2e4881",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0327216383"
+    }, {
+      "id": "462b2fc4-7098-4d48-b938-885be34a5f1f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54547c94-4816-4506-9de3-61fc139bac03",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "cvgtrgf"
+    }, {
+      "id": "16be1aab-6d8a-4bb3-afa2-dca561c8f608",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accent",
+      "targets": [
+        ["css=.accent", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7eba3bea-0663-490c-9cb4-e0284e0c8bc2",
+    "name": "ca2",
+    "commands": [{
+      "id": "c1e8ba26-cb72-49eb-9c62-8935ea1051fb",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.chotot.com/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "740e0e80-ed99-4c0b-a6ec-724358d068c1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "268d25ba-2d9b-40d6-bcda-25c2ba7233f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d5e0b63-f44f-4f74-8dc3-44f4853a2109",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "03859374782"
+    }, {
+      "id": "866dd487-78e6-4df0-b0d2-b9841c585b6d",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab702625-b1fa-4e73-a60a-01915e9c7b8c",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "ddd"
+    }, {
+      "id": "e275579e-53b8-4dfd-b176-8daef4b6073f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accent",
+      "targets": [
+        ["css=.accent", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea0e2e02-3b6f-4cc7-9f70-37c9567193a7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.e66t3pu",
+      "targets": [
+        ["css=.e66t3pu", "css:finder"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div/div[2]", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29d2b583-8d36-4ec0-a165-247f7f41f934",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d52b52d7-0011-45c3-a025-0566a114b50a",
+    "name": "ca3",
+    "commands": [{
+      "id": "6d57f2ef-bb3b-440d-abe6-c87096c6e549",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.chotot.com/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "396f6bcc-cdc7-4850-9f4c-627ecb207d72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "149fa8b3-b220-4cd8-a63a-e33615bbb36e",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c1ceae3-7691-48e6-9593-300f967e18a5",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0393984171"
+    }, {
+      "id": "c70686f3-8e7b-432e-9c2b-eac025a1415e",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c17a03e-3aaf-43c9-bcb2-d1a938ce1d93",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "cccc"
+    }, {
+      "id": "3deaf5c0-128b-4b12-add3-e18fed0e5509",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accent",
+      "targets": [
+        ["css=.accent", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "498a6aa3-c44d-4df9-807d-f8f64eaa1cb4",
+    "name": "ca4",
+    "commands": [{
+      "id": "2f58d125-fc39-40af-a0b0-343b2c531bbe",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.chotot.com/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a6c2652-5cbe-41e6-81c1-6eb2078a47c0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14765bbe-189b-4e8d-b518-55d4a1978b1a",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "870495a7-5264-4eca-a7b1-4c2b397cd84c",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cca049d-aadd-4b07-8081-555067bd9c17",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0393984171"
+    }, {
+      "id": "33291c6f-79ad-4671-9f0d-f781ca054101",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "382abdf2-df96-4600-9228-8fa137313446",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "cvcv      "
+    }, {
+      "id": "cc97f957-a140-4b37-ba01-58d05863618c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accent",
+      "targets": [
+        ["css=.accent", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb3a0a3d-24b0-42c5-8fac-54ec3d646a58",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "3c26acd9-05ec-4d92-8a57-81fdfdc278ca",
+    "name": "ca5",
+    "commands": [{
+      "id": "cb67237b-aac7-4087-94e0-4ff541fb0273",
+      "comment": "",
+      "command": "open",
+      "target": "https://accounts.chotot.com/register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38f6f979-0cca-4a19-ba59-00eecae7c3c7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1062x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd4519b7-96b5-45f7-a531-21c3d9a34835",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c830db-5e3a-4ff3-93d7-fec55715fa5b",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.cpt13la:nth-child(4) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "0393984171"
+    }, {
+      "id": "347d664b-42b8-47b7-a635-4a2d546eb831",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ef16fb6-4679-4b90-9c6a-be97f8eafc0b",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.cpt13la:nth-child(5) .i1pbvj0j", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "thuynga2100"
+    }, {
+      "id": "6c2c50fe-38d8-4d7e-bd88-e8535df3c260",
+      "comment": "",
+      "command": "click",
+      "target": "css=.accent",
+      "targets": [
+        ["css=.accent", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[3]/main/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng ký')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ec8dbb8-e5b0-41d1-a79a-2a80d41b7245",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e8780f63-a2ff-4f46-b064-a4b1432d4ddc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/WEB_DOAN2/HTML/dangnhap.php", "https://accounts.chotot.com/register"],
+  "plugins": []
+}
